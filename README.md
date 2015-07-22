@@ -23,6 +23,7 @@ Setup Mongo (The app uses xci as the name as the database, but you can change th
 Install packages (inside of the virtualenv you created first)
 
 	. ./env/bin/activate
+	sudo apt-get install libxml2-dev libxslt-dev python-dev zlib1g-dev
 	pip install -r requirements.txt
 
 Add index
